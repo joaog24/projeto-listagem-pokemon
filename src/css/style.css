@@ -1,0 +1,157 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    
+    ul{
+    
+        list-style: none;
+    }
+body{
+
+    font-family: 'Poppins', sans-serif;
+    max-width: 1280px;
+    margin: 0 auto;
+    background-color: #0095E9;
+     color: #333333;
+}
+
+body.modo-escuro{
+
+
+    background-color: #212121;
+    color: #f5f5f5;
+
+}
+
+header{
+
+    
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    
+}
+
+header .logo,
+header .imagem-botao{
+    width: 50px;
+    transition: 0.02s ease-in-out;
+}
+
+header #botao-alterar-tema{
+
+    background: none;
+    border: none;
+}
+
+header .logo:hover, 
+header .imagem-botao:hover, 
+main .cartao-pokemon:hover{
+
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+main{
+
+    padding: 25px;
+
+}
+
+.listagem-pokemon{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+.cartao-pokemon{
+
+    background-color: #d8e3ec;
+    width: 200px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    border-radius: 15px;
+    transition: 0.2s ease-in-out;
+}
+
+.cartao-pokemon:hover{
+
+    background-color: #d4ef0a;
+}
+
+.modo-escuro .cartao-pokemon{
+
+    background-color: #a8a8a8;
+}
+
+.cartao-pokemon .informacoes{
+
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #333333;
+    border-radius: 10px;
+}
+
+.cartao-pokemon .informacoes span{
+    padding: 5px;
+    text-transform: uppercase;
+    font-size: 17px;
+}
+
+.cartao-pokemon .gif{
+    width: 90px;
+    height: 90px;
+}
+
+.cartao-pokemon .tipos{
+
+  
+    display: flex;
+    gap: 15px;
+}
+
+.cartao-pokemon  .tipo{
+
+    padding: 10px;
+}
+.Grama{
+    border-radius: 10px;
+    background-color: #7ac74c;
+}
+
+.Veneno{
+    border-radius: 10px;
+    background-color: #d767ddfb;
+}
+
+.Fogo{ border-radius: 10px;
+    background-color: #ee8130;
+}
+.Agua{
+    border-radius: 10px;
+    background-color:#6390f0 ;
+}
+
+.psíquico{
+    border-radius: 10px;
+    background-color:#d24da1 ;
+}
+
+.descricao{
+    overflow-y: scroll;
+    font-size: 14px;
+    padding-right: 4px;
+    
+    
+    
+    max-height: 80px
+
+
+}
