@@ -1,6 +1,6 @@
 # Projeto de Listagem de Pokémons
 
-Link do projeto: https://ubiquitous-cuchufli-ae495a.netlify.app
+Link do projeto: https://listagem-pokemons.netlify.app/
 
 Este projeto é uma aplicação web simples que lista pokémons usando HTML, CSS e JavaScript.
 
